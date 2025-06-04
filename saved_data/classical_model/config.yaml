@@ -1,0 +1,46 @@
+attention_dropout: 0.5
+batch_size: 128
+betas:
+- 0.9
+- 0.999
+checkpoints_path: saved_data/saved_models/darkroom_14-Aug-15-40-38
+clip_grad: 1.0
+debug: false
+embedding_dim: 64
+embedding_dropout: 0.1
+entity: albinakl
+env_config:
+  add_now2name: true
+  enable_episode_stats_wrapper: true
+  enable_monitor_logs: false
+  experiment_name: darkroom_14-Aug-15-40-38
+  goal_index: null
+  max_episode_lenght: 20
+  monitor_logs_dir: saved_data/logs/darkroom_14-Aug-15-40-38
+  random_start: false
+  size: 9
+  terminate_on_goal: false
+eval_episodes: 100
+eval_freq: 5000
+eval_seed: 0
+filter_episodes: 1
+group: debug
+hidden_dim: 256
+learning_history_dirs:
+- saved_data/learning_history/ppo-01
+- saved_data/learning_history/ppo-02
+- saved_data/learning_history/ppo-03
+learning_rate: 0.0003
+ln_placem: postnorm
+load_from_checkpoint: ''
+num_heads: 4
+num_layers: 4
+num_updates: 300000
+num_workers: 2
+permutations_file: saved_data/permutations_9.txt
+project: AD
+residual_dropout: 0.1
+seq_len: 60
+train_test_split: 0.5
+warmup_steps: 10000
+weight_decay: 0.001
