@@ -4,8 +4,8 @@ Implementation of [paper](https://arxiv.org/abs/2210.14215) "In-context Reinforc
 ## Installation 🧑‍🔧
 
 ```bash
-git clone ...
-cd ad-icrl
+git clone github.com/Jipeng416/EEC-256-Project-AD
+cd EEC-256-Project-AD
 python -m venv venv
 pip install -r requirements/requirements.txt
 ```
