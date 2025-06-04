@@ -1,0 +1,10 @@
+toymeta
+ipykernel
+matplotlib
+tyro
+tqdm
+pyyaml
+torch
+tensorboard
+stable_baselines3
+wandb
