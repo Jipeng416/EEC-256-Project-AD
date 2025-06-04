@@ -1,4 +1,4 @@
-# ad-icrl
+# EEC-256-Project-AD
 Implementation of [paper](https://arxiv.org/abs/2210.14215) "In-context Reinforcement Learning with Algorithm Distillation"
 
 ## Installation 🧑‍🔧
